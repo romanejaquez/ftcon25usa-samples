@@ -1,0 +1,1 @@
+/Users/romanjaquez/Documents/Flutter/Samples/sample_rive_native_databinding/rive_native-0.0.1-dev.8/example/build/rive_native/intermediates/cxx/Debug/5ni5f474/obj/arm64-v8a

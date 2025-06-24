@@ -1,0 +1,27 @@
+{
+    "name": "@rive-app/flutter-native-wasm",
+    "version": "13.0.0",
+    "description": "WASM portion of Rive's Flutter runtime.",
+    "homepage": "https://rive.app",
+    "private": false,
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rive-app/rive-flutter"
+    },
+    "author": "Rive",
+    "license": "MIT",
+    "scripts": {
+        "bump-version": "VERSION=`npm version major` && echo \"const wasmVersion = '$VERSION';\" > ../../lib/src/wasm_version.dart",
+        "serve": "http-server build/bin/ -p 8282 --cors"
+    },
+    "devDependencies": {
+        "http-server": "^14.1.1"
+    },
+    "keywords": [],
+    "files": [
+        "wasm/rive_native.js",
+        "wasm/rive_native.wasm",
+        "wasm_compatibility/rive_native.js",
+        "wasm_compatibility/rive_native.wasm"
+    ]
+}

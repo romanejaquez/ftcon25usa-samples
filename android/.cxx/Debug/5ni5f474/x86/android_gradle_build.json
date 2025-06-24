@@ -1,0 +1,28 @@
+{
+  "buildFiles": [
+    "/Users/romanjaquez/Documents/Flutter/Samples/sample_rive_native_databinding/rive_native-0.0.1-dev.8/android/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/romanjaquez/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/romanjaquez/Documents/Flutter/Samples/sample_rive_native_databinding/rive_native-0.0.1-dev.8/android/.cxx/Debug/5ni5f474/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/romanjaquez/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/romanjaquez/Documents/Flutter/Samples/sample_rive_native_databinding/rive_native-0.0.1-dev.8/android/.cxx/Debug/5ni5f474/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {},
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/Users/romanjaquez/Library/Android/sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang.lld",
+      "cppCompilerExecutable": "/Users/romanjaquez/Library/Android/sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++.lld"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": []
+}

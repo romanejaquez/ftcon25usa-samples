@@ -1,0 +1,97 @@
+.github
+.vscode
+cg_renderer
+dev
+rivinfo
+scripting
+skia
+tess
+test
+tests
+viewer
+renderer/webgpu_player/
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# aot snapshots
+dev/bin/*
+
+# Generated make files
+# Makefile
+*.make
+
+# Dart stuff
+pubspec.lock
+.packages
+.dart_tool
+
+# OSX stuff
+*.DS_Store
+
+# Generated docs
+docs
+
+# Analysis results
+dev/analysis_report
+
+# Build directories
+build/bin
+dev/test/build/bin
+rivinfo/build/macosx
+
+# Main gitignore
+renderer/out
+renderer/build_env
+renderer/dependencies
+#!renderer/out/*.lua
+renderer/*.dylib
+dependencies/gen_harfbuzz_renames/harfbuzz_renames.txt
+dependencies/gen_harfbuzz_renames/harfbuzz_names.txt
+dependencies/gen_libjpeg_renames/libjpeg_renames.txt
+dependencies/gen_libjpeg_renames/libjpeg_names.txt
+dependencies/gen_yoga_renames/yoga_renames.txt
+dependencies/gen_yoga_renames/yoga_names.txt
+build/dependencies
+dev/dependencies
+dev/test/dependencies
+
+# Other manual
+dependencies/gen_yoga_renames/dependencies
+dependencies/windows/cache
+dependencies/macosx/cache
+build/android
+build/macosx
+build/Makefile
+build/rive.make
+out/

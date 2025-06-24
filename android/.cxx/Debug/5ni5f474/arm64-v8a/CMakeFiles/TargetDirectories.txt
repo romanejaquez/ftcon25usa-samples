@@ -1,0 +1,2 @@
+/Users/romanjaquez/Documents/Flutter/Samples/sample_rive_native_databinding/rive_native-0.0.1-dev.8/android/.cxx/Debug/5ni5f474/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/romanjaquez/Documents/Flutter/Samples/sample_rive_native_databinding/rive_native-0.0.1-dev.8/android/.cxx/Debug/5ni5f474/arm64-v8a/CMakeFiles/rebuild_cache.dir

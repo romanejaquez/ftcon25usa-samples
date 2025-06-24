@@ -1,0 +1,29 @@
+{
+    "name": "@rive-app/rive_flutter_native",
+    "version": "1.0.0",
+    "description": "Rive's Flutter runtime.",
+    "homepage": "https://rive.app",
+    "private": false,
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rive-app/rive-flutter"
+    },
+    "author": "Rive",
+    "license": "MIT",
+    "scripts": {
+        "test": "jest --testPathPattern=$PWD/test/ --forceExit",
+        "bump-version": "VERSION=`npm version major` && echo \"const wasmVersion = '$VERSION';\" > ../../../../rive_native/lib/src/wasm_version.dart",
+        "serve": "http-server ../../out/ -p 8282 --cors"
+    },
+    "devDependencies": {
+        "jest": "^29.0.3",
+        "http-server": "^14.1.1"
+    },
+    "keywords": [],
+    "files": [
+        "../../out/debug/wasm/rive_native.js",
+        "../../out/debug/wasm/rive_native.wasm",
+        "../../out/release/wasm/rive_native.js",
+        "../../out/release/wasm/rive_native.wasm"
+    ]
+}
