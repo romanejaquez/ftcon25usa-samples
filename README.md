@@ -2,6 +2,11 @@
 ### Rive Samples Using the rive_native package
 This is a companion repo containing resources shared during my presentation at FlutterCon USA '25 with the title **Rive: The Final Frontier of Graphics for Flutter Apps**.
 
+### Resources
+
+Slides (as a Flutter app itself, animated in Rive) 
+[https://github.com/romanejaquez/ftcon25usa-slides]
+
 Rive Inspector
 [https://rive-inspector.web.app/]
 
