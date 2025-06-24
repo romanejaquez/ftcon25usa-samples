@@ -1,3 +1,7 @@
+# Rive Flutter Samples
+### Rive Samples Using the rive_native package
+This is a companion repo containing resources shared during my presentation at FlutterCon USA '25 with the title **Rive: The Final Frontier of Graphics for Flutter Apps**.
+
 # rive_native
 
 Rive Native is a new runtime that allows you to display and interact with Rive graphics in your Flutter app, powered by the [Rive Renderer](https://rive.app/renderer).
